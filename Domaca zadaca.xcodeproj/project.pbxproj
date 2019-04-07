@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C180CD7225920EB007D4261 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C180CD6225920EB007D4261 /* Category.swift */; };
+		9C180CD92259271E007D4261 /* All_Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C180CD82259271E007D4261 /* All_Questions.swift */; };
+		9C180CDB225957C1007D4261 /* All_Quizzes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C180CDA225957C1007D4261 /* All_Quizzes.swift */; };
+		9CB6A7B7225795F600152CA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB6A7B6225795F600152CA5 /* AppDelegate.swift */; };
+		9CB6A7BE225795F700152CA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB6A7BD225795F700152CA5 /* Assets.xcassets */; };
+		9CB6A7C1225795F700152CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB6A7BF225795F700152CA5 /* LaunchScreen.storyboard */; };
+		9CB6A7CC225795F700152CA5 /* Domaca_zadacaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB6A7CB225795F700152CA5 /* Domaca_zadacaTests.swift */; };
+		9CB6A7D7225795F800152CA5 /* Domaca_zadacaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB6A7D6225795F800152CA5 /* Domaca_zadacaUITests.swift */; };
+		9CB6A7E622579C9E00152CA5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB6A7E422579C9E00152CA5 /* MainView.swift */; };
+		9CB6A7E722579C9E00152CA5 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CB6A7E522579C9E00152CA5 /* MainView.xib */; };
+		9CB6A7EF2257A6AD00152CA5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB6A7EE2257A6AD00152CA5 /* Service.swift */; };
+		9CB6A7F12257A9A200152CA5 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB6A7F02257A9A200152CA5 /* Quiz.swift */; };
+		9CB6A7F32257ADAD00152CA5 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB6A7F22257ADAD00152CA5 /* Question.swift */; };
+		C1F6B3F82259FC17009873DC /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F6B3F72259FC17009873DC /* QuestionView.swift */; };
+		C1F6B3FA2259FC24009873DC /* QuestionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F6B3F92259FC24009873DC /* QuestionView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CB6A7C8225795F700152CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CB6A7AB225795F600152CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB6A7B2225795F600152CA5;
+			remoteInfo = "Domaca zadaca";
+		};
+		9CB6A7D3225795F800152CA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CB6A7AB225795F600152CA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CB6A7B2225795F600152CA5;
+			remoteInfo = "Domaca zadaca";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C180CD6225920EB007D4261 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9C180CD82259271E007D4261 /* All_Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_Questions.swift; sourceTree = "<group>"; };
+		9C180CDA225957C1007D4261 /* All_Quizzes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_Quizzes.swift; sourceTree = "<group>"; };
+		9CB6A7B3225795F600152CA5 /* Domaca zadaca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Domaca zadaca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB6A7B6225795F600152CA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CB6A7BD225795F700152CA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CB6A7C0225795F700152CA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CB6A7C2225795F700152CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB6A7C7225795F700152CA5 /* Domaca zadacaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Domaca zadacaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB6A7CB225795F700152CA5 /* Domaca_zadacaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domaca_zadacaTests.swift; sourceTree = "<group>"; };
+		9CB6A7CD225795F700152CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB6A7D2225795F800152CA5 /* Domaca zadacaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Domaca zadacaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB6A7D6225795F800152CA5 /* Domaca_zadacaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domaca_zadacaUITests.swift; sourceTree = "<group>"; };
+		9CB6A7D8225795F800152CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB6A7E422579C9E00152CA5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9CB6A7E522579C9E00152CA5 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		9CB6A7EE2257A6AD00152CA5 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		9CB6A7F02257A9A200152CA5 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		9CB6A7F22257ADAD00152CA5 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		C1F6B3F72259FC17009873DC /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		C1F6B3F92259FC24009873DC /* QuestionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CB6A7B0225795F600152CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB6A7C4225795F700152CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB6A7CF225795F800152CA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CB6A7AA225795F600152CA5 = {
+			isa = PBXGroup;
+			children = (
+				9CB6A7B5225795F600152CA5 /* Domaca zadaca */,
+				9CB6A7CA225795F700152CA5 /* Domaca zadacaTests */,
+				9CB6A7D5225795F800152CA5 /* Domaca zadacaUITests */,
+				9CB6A7B4225795F600152CA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CB6A7B4225795F600152CA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CB6A7B3225795F600152CA5 /* Domaca zadaca.app */,
+				9CB6A7C7225795F700152CA5 /* Domaca zadacaTests.xctest */,
+				9CB6A7D2225795F800152CA5 /* Domaca zadacaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CB6A7B5225795F600152CA5 /* Domaca zadaca */ = {
+			isa = PBXGroup;
+			children = (
+				9CB6A7E522579C9E00152CA5 /* MainView.xib */,
+				C1F6B3F72259FC17009873DC /* QuestionView.swift */,
+				C1F6B3F92259FC24009873DC /* QuestionView.xib */,
+				9CB6A7E422579C9E00152CA5 /* MainView.swift */,
+				9CB6A7EE2257A6AD00152CA5 /* Service.swift */,
+				9CB6A7B6225795F600152CA5 /* AppDelegate.swift */,
+				9CB6A7BD225795F700152CA5 /* Assets.xcassets */,
+				9CB6A7BF225795F700152CA5 /* LaunchScreen.storyboard */,
+				9CB6A7C2225795F700152CA5 /* Info.plist */,
+				9CB6A7F02257A9A200152CA5 /* Quiz.swift */,
+				9CB6A7F22257ADAD00152CA5 /* Question.swift */,
+				9C180CD6225920EB007D4261 /* Category.swift */,
+				9C180CD82259271E007D4261 /* All_Questions.swift */,
+				9C180CDA225957C1007D4261 /* All_Quizzes.swift */,
+			);
+			path = "Domaca zadaca";
+			sourceTree = "<group>";
+		};
+		9CB6A7CA225795F700152CA5 /* Domaca zadacaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CB6A7CB225795F700152CA5 /* Domaca_zadacaTests.swift */,
+				9CB6A7CD225795F700152CA5 /* Info.plist */,
+			);
+			path = "Domaca zadacaTests";
+			sourceTree = "<group>";
+		};
+		9CB6A7D5225795F800152CA5 /* Domaca zadacaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CB6A7D6225795F800152CA5 /* Domaca_zadacaUITests.swift */,
+				9CB6A7D8225795F800152CA5 /* Info.plist */,
+			);
+			path = "Domaca zadacaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CB6A7B2225795F600152CA5 /* Domaca zadaca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB6A7DB225795F800152CA5 /* Build configuration list for PBXNativeTarget "Domaca zadaca" */;
+			buildPhases = (
+				9CB6A7AF225795F600152CA5 /* Sources */,
+				9CB6A7B0225795F600152CA5 /* Frameworks */,
+				9CB6A7B1225795F600152CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Domaca zadaca";
+			productName = "Domaca zadaca";
+			productReference = 9CB6A7B3225795F600152CA5 /* Domaca zadaca.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CB6A7C6225795F700152CA5 /* Domaca zadacaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB6A7DE225795F800152CA5 /* Build configuration list for PBXNativeTarget "Domaca zadacaTests" */;
+			buildPhases = (
+				9CB6A7C3225795F700152CA5 /* Sources */,
+				9CB6A7C4225795F700152CA5 /* Frameworks */,
+				9CB6A7C5225795F700152CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CB6A7C9225795F700152CA5 /* PBXTargetDependency */,
+			);
+			name = "Domaca zadacaTests";
+			productName = "Domaca zadacaTests";
+			productReference = 9CB6A7C7225795F700152CA5 /* Domaca zadacaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CB6A7D1225795F800152CA5 /* Domaca zadacaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB6A7E1225795F800152CA5 /* Build configuration list for PBXNativeTarget "Domaca zadacaUITests" */;
+			buildPhases = (
+				9CB6A7CE225795F800152CA5 /* Sources */,
+				9CB6A7CF225795F800152CA5 /* Frameworks */,
+				9CB6A7D0225795F800152CA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CB6A7D4225795F800152CA5 /* PBXTargetDependency */,
+			);
+			name = "Domaca zadacaUITests";
+			productName = "Domaca zadacaUITests";
+			productReference = 9CB6A7D2225795F800152CA5 /* Domaca zadacaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CB6A7AB225795F600152CA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Marin Šimić";
+				TargetAttributes = {
+					9CB6A7B2225795F600152CA5 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					9CB6A7C6225795F700152CA5 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 9CB6A7B2225795F600152CA5;
+					};
+					9CB6A7D1225795F800152CA5 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 9CB6A7B2225795F600152CA5;
+					};
+				};
+			};
+			buildConfigurationList = 9CB6A7AE225795F600152CA5 /* Build configuration list for PBXProject "Domaca zadaca" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CB6A7AA225795F600152CA5;
+			productRefGroup = 9CB6A7B4225795F600152CA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CB6A7B2225795F600152CA5 /* Domaca zadaca */,
+				9CB6A7C6225795F700152CA5 /* Domaca zadacaTests */,
+				9CB6A7D1225795F800152CA5 /* Domaca zadacaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CB6A7B1225795F600152CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F6B3FA2259FC24009873DC /* QuestionView.xib in Resources */,
+				9CB6A7E722579C9E00152CA5 /* MainView.xib in Resources */,
+				9CB6A7C1225795F700152CA5 /* LaunchScreen.storyboard in Resources */,
+				9CB6A7BE225795F700152CA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB6A7C5225795F700152CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB6A7D0225795F800152CA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CB6A7AF225795F600152CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C180CD92259271E007D4261 /* All_Questions.swift in Sources */,
+				9CB6A7F12257A9A200152CA5 /* Quiz.swift in Sources */,
+				9CB6A7EF2257A6AD00152CA5 /* Service.swift in Sources */,
+				9CB6A7F32257ADAD00152CA5 /* Question.swift in Sources */,
+				9CB6A7E622579C9E00152CA5 /* MainView.swift in Sources */,
+				9CB6A7B7225795F600152CA5 /* AppDelegate.swift in Sources */,
+				9C180CDB225957C1007D4261 /* All_Quizzes.swift in Sources */,
+				C1F6B3F82259FC17009873DC /* QuestionView.swift in Sources */,
+				9C180CD7225920EB007D4261 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB6A7C3225795F700152CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB6A7CC225795F700152CA5 /* Domaca_zadacaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CB6A7CE225795F800152CA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB6A7D7225795F800152CA5 /* Domaca_zadacaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CB6A7C9225795F700152CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CB6A7B2225795F600152CA5 /* Domaca zadaca */;
+			targetProxy = 9CB6A7C8225795F700152CA5 /* PBXContainerItemProxy */;
+		};
+		9CB6A7D4225795F800152CA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CB6A7B2225795F600152CA5 /* Domaca zadaca */;
+			targetProxy = 9CB6A7D3225795F800152CA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CB6A7BF225795F700152CA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB6A7C0225795F700152CA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CB6A7D9225795F800152CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CB6A7DA225795F800152CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CB6A7DC225795F800152CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN9CGL8MUK;
+				INFOPLIST_FILE = "Domaca zadaca/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marinsimic.Domaca-zadaca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CB6A7DD225795F800152CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XN9CGL8MUK;
+				INFOPLIST_FILE = "Domaca zadaca/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marinsimic.Domaca-zadaca";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CB6A7DF225795F800152CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Domaca zadacaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marinsimic.Domaca-zadacaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Domaca zadaca.app/Domaca zadaca";
+			};
+			name = Debug;
+		};
+		9CB6A7E0225795F800152CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Domaca zadacaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marinsimic.Domaca-zadacaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Domaca zadaca.app/Domaca zadaca";
+			};
+			name = Release;
+		};
+		9CB6A7E2225795F800152CA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Domaca zadacaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marinsimic.Domaca-zadacaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Domaca zadaca";
+			};
+			name = Debug;
+		};
+		9CB6A7E3225795F800152CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Domaca zadacaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marinsimic.Domaca-zadacaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Domaca zadaca";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CB6A7AE225795F600152CA5 /* Build configuration list for PBXProject "Domaca zadaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB6A7D9225795F800152CA5 /* Debug */,
+				9CB6A7DA225795F800152CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB6A7DB225795F800152CA5 /* Build configuration list for PBXNativeTarget "Domaca zadaca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB6A7DC225795F800152CA5 /* Debug */,
+				9CB6A7DD225795F800152CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB6A7DE225795F800152CA5 /* Build configuration list for PBXNativeTarget "Domaca zadacaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB6A7DF225795F800152CA5 /* Debug */,
+				9CB6A7E0225795F800152CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB6A7E1225795F800152CA5 /* Build configuration list for PBXNativeTarget "Domaca zadacaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB6A7E2225795F800152CA5 /* Debug */,
+				9CB6A7E3225795F800152CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CB6A7AB225795F600152CA5 /* Project object */;
+}
